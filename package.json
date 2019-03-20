@@ -1,8 +1,8 @@
 {
   "name": "@modulist/css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "SimplyStack",
-  "description": "Modulist is the CSS framework that powers SimplyStack",
+  "description": "The Modulist is a CSS design system",
   "main": "main.css",
   "scripts": {
     "build": "node build.js",

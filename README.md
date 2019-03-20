@@ -1,6 +1,6 @@
 # Modulist CSS
 
-The CSS implementation of SimplyStack's Design System
+The Modulist is a CSS design system
 
 
 ## Install
