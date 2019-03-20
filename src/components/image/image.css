@@ -1,0 +1,8 @@
+.image {
+  border: none;
+  vertical-align: middle;
+
+  &.responsive {
+    max-width: 100%;
+  }
+}

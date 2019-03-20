@@ -1,0 +1,22 @@
+.avatar {
+  background-color: var(--gray-200);
+  border-radius: 50%;
+  display: inline-flex;
+  position: relative;
+  vertical-align: middle;
+}
+
+.avatar.size-1 {
+  height: var(--spacer-3);
+  width: var(--spacer-3);
+}
+
+.avatar.size-2 {
+  height: var(--spacer-5);
+  width: var(--spacer-5);
+}
+
+.avatar.size-3 {
+  height: var(--spacer-6);
+  width: var(--spacer-6);
+}

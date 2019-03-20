@@ -1,0 +1,61 @@
+.table {
+  background-color: white;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: var(--body-text-color);
+}
+
+.table td,
+.table th {
+  border: 1px solid var(--border-color);
+  border-width: 0 0 1px;
+  padding: 0.5em 0.75em;
+  vertical-align: top;
+}
+
+.table th {
+  text-align: left;
+}
+
+.table thead td,
+.table thead th,
+.table tfoot td,
+.table tfoot th {
+  border-width: 0 0 2px;
+}
+
+.table tbody {
+  tr:last-child {
+    td,
+    th {
+      border-bottom-width: 0;
+    }
+  }
+}
+
+/* Bordered */
+.table.is-bordered {
+  td,
+  th {
+    border-width: 1px;
+  }
+
+  tr:last-child {
+    td,
+    th {
+      border-bottom-width: 1px;
+    }
+  }
+}
+
+/* Striped */
+.table.is-striped {
+  tbody tr:nth-child(even) {
+    background-color: var(--bg-gray);
+  }
+}
+
+/* Fullwidth */
+.table.is-fullwidth {
+  width: 100%;
+}

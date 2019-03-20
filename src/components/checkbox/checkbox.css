@@ -1,0 +1,64 @@
+.checkbox {
+  display: inline-block;
+}
+
+.checkbox__input:checked,
+.checkbox__input:not(:checked) {
+  left: -9999px;
+  position: absolute;
+}
+
+.checkbox__input:checked + .checkbox__label,
+.checkbox__input:not(:checked) + .checkbox__label {
+  cursor: pointer;
+  display: inline-block;
+  line-height: 20px;
+  padding-left: 28px;
+  position: relative;
+}
+
+.checkbox__input:checked + .checkbox__label::before,
+.checkbox__input:not(:checked) + .checkbox__label::before {
+  background: var(--form-item-bg-color);
+  border: 1px solid var(--form-item-border-color);
+  border-radius: 2px;
+  content: "";
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.checkbox__input:checked + .checkbox__label::after,
+.checkbox__input:not(:checked) + .checkbox__label::after {
+  border-bottom: 2px solid var(--primary);
+  border-right: 2px solid var(--primary);
+  bottom: 6px;
+  content: "";
+  display: block;
+  height: 9px;
+  left: 7px;
+  position: absolute;
+  transition: all var(--duration-200) ease;
+  width: 4px;
+}
+
+.checkbox__input:not(:checked) + .checkbox__label::after {
+  opacity: 0;
+  transform: scale(0) rotate(45deg);
+}
+
+.checkbox__input:checked + .checkbox__label::after {
+  opacity: 1;
+  transform: scale(1) rotate(45deg);
+}
+
+.checkbox__input[disabled] + .checkbox__label::before {
+  background-color: var(--gray-200);
+  border: none;
+}
+
+.checkbox__input[disabled] + .checkbox__label {
+  color: var(--text-secondary);
+}

@@ -1,0 +1,20 @@
+.select-native {
+  appearance: none;
+  background: #fff
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC")
+    no-repeat right 8px center;
+  background-color: transparent;
+  background-size: 8px 10px;
+  border: 1px solid var(--border-color);
+  display: inline-block;
+  max-width: 100%;
+  min-height: 48px;
+  outline: none;
+  padding: 0 24px 0 16px;
+  position: relative;
+  vertical-align: top;
+
+  &.is-fullwidth {
+    width: 100%;
+  }
+}

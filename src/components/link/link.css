@@ -1,0 +1,36 @@
+.link {
+  cursor: pointer;
+  font-family: var(--body-font);
+
+  &.is-primary {
+    color: var(--primary);
+
+    &:hover {
+      color: var(--primary-dark);
+    }
+  }
+
+  &.is-accent {
+    color: var(--accent);
+
+    &:hover {
+      color: var(--accent-dark);
+    }
+  }
+
+  &.is-secondary {
+    color: var(--text-secondary);
+
+    &:hover {
+      color: var(--gray-600);
+    }
+  }
+
+  &.is-black {
+    color: var(--body-text-color);
+
+    &:hover {
+      color: var(--gray-600);
+    }
+  }
+}

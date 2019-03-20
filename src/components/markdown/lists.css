@@ -1,0 +1,48 @@
+.markdown-content {
+  ul,
+  ol {
+    padding-left: 2em;
+
+    &.no-list {
+      list-style-type: none;
+      padding: 0;
+    }
+  }
+
+  ul ul,
+  ul ol,
+  ol ol,
+  ol ul {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  li {
+    word-wrap: break-all;
+  }
+
+  li > p {
+    margin-top: var(--spacer-3);
+  }
+
+  li + li {
+    margin-top: var(--spacer-1);
+  }
+
+  dl {
+    padding: 0;
+
+    dt {
+      font-size: 1em;
+      font-style: italic;
+      font-weight: var(--font-weight-bold);
+      margin-top: var(--spacer-3);
+      padding: 0;
+    }
+
+    dd {
+      margin-bottom: var(--spacer-3);
+      padding: 0 var(--spacer-3);
+    }
+  }
+}

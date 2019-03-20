@@ -1,0 +1,23 @@
+.spinner {
+  animation: spin-around calc(var(--duration-500) * 5) infinite linear;
+  border-bottom-color: var(--text-secondary);
+  border-left-color: var(--text-secondary);
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-style: solid;
+  border-top-color: transparent;
+  border-width: 3px;
+  display: block;
+  height: 32px;
+  width: 32px;
+}
+
+.spinner--primary {
+  border-bottom-color: var(--primary);
+  border-left-color: var(--primary);
+}
+
+.spinner--inverted {
+  border-bottom-color: hsla(0, 0%, 100%, 0.7);
+  border-left-color: hsla(0, 0%, 100%, 0.7);
+}

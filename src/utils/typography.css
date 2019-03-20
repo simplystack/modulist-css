@@ -1,0 +1,216 @@
+.f1 {
+  font-size: var(--h1-size-mobile);
+}
+.f2 {
+  font-size: var(--h2-size-mobile);
+}
+.f3 {
+  font-size: var(--h3-size-mobile);
+}
+.f4 {
+  font-size: var(--h4-size);
+}
+.f5 {
+  font-size: var(--h5-size);
+}
+.f6 {
+  font-size: var(--h6-size);
+}
+
+.h1 {
+  font-size: var(--h1-size-mobile);
+}
+.h2 {
+  font-size: var(--h2-size-mobile);
+}
+.h3 {
+  font-size: var(--h3-size-mobile);
+}
+.h4 {
+  font-size: var(--h4-size);
+}
+.h5 {
+  font-size: var(--h5-size);
+}
+.h6 {
+  font-size: var(--h6-size);
+}
+
+@media (--breakpoint-m) {
+  .f1 {
+    font-size: var(--h1-size);
+  }
+  .f2 {
+    font-size: var(--h2-size);
+  }
+  .f3 {
+    font-size: var(--h3-size);
+  }
+  .h1 {
+    font-size: var(--h1-size);
+  }
+  .h2 {
+    font-size: var(--h2-size);
+  }
+  .h3 {
+    font-size: var(--h3-size);
+  }
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: var(--font-weight-bold);
+}
+
+.f00-light {
+  font-size: var(--h00-size-mobile);
+  font-weight: var(--font-weight-light);
+}
+
+.f0-light {
+  font-size: var(--h0-size-mobile);
+  font-weight: var(--font-weight-light);
+}
+
+.f1-light {
+  font-size: var(--h1-size-mobile);
+  font-weight: var(--font-weight-light);
+}
+
+.f2-light {
+  font-size: var(--h2-size-mobile);
+  font-weight: var(--font-weight-light);
+}
+
+.f3-light {
+  font-size: var(--h3-size-mobile);
+  font-weight: var(--font-weight-light);
+}
+
+@media (--breakpoint-m) {
+  .f00-light {
+    font-size: var(--h00-size);
+  }
+  .f0-light {
+    font-size: var(--h0-size);
+  }
+  .f1-light {
+    font-size: var(--h1-size);
+  }
+  .f2-light {
+    font-size: var(--h2-size);
+  }
+  .f3-light {
+    font-size: var(--h3-size);
+  }
+}
+
+.text-align-left {
+  text-align: left;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+
+@media (--breakpoint-s) {
+  .s-text-align-left {
+    text-align: left;
+  }
+  .s-text-align-center {
+    text-align: center;
+  }
+  .s-text-align-right {
+    text-align: right;
+  }
+}
+
+@media (--breakpoint-m) {
+  .m-text-align-left {
+    text-align: left;
+  }
+  .m-text-align-center {
+    text-align: center;
+  }
+  .m-text-align-right {
+    text-align: right;
+  }
+}
+
+@media (--breakpoint-l) {
+  .l-text-align-left {
+    text-align: left;
+  }
+  .l-text-align-center {
+    text-align: center;
+  }
+  .l-text-align-right {
+    text-align: right;
+  }
+}
+
+@media (--breakpoint-xl) {
+  .xl-text-align-left {
+    text-align: left;
+  }
+  .xl-text-align-center {
+    text-align: center;
+  }
+  .xl-text-align-right {
+    text-align: right;
+  }
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.text-light {
+  font-weight: var(--font-weight-light);
+}
+.text-normal {
+  font-weight: var(--font-weight-normal);
+}
+.text-bold {
+  font-weight: var(--font-weight-bold);
+}
+.text-italic {
+  font-style: italic;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.ws-normal {
+  white-space: normal;
+}
+.wb-break-all {
+  word-break: break-all;
+}
+
+.text-emphasized {
+  color: var(--gray-500);
+  font-weight: var(--font-weight-bold);
+}
+
+.text-truncated {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

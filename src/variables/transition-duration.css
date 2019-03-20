@@ -1,0 +1,8 @@
+:root,
+[data-theme="default"] {
+  --duration-100: 50ms;
+  --duration-200: 100ms;
+  --duration-300: 200ms;
+  --duration-400: 400ms;
+  --duration-500: 100ms;
+}

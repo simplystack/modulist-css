@@ -1,0 +1,30 @@
+.markdown-content {
+  table {
+    display: block;
+    overflow: auto;
+    width: 100%;
+
+    th {
+      font-weight: var(--font-weight-bold);
+    }
+
+    th,
+    td {
+      border: 1px solid var(--gray-200);
+      padding: 6px 13px;
+    }
+
+    tr {
+      background-color: var(--bg-white);
+      border-top: 1px solid var(--gray-300);
+
+      &:nth-child(2n) {
+        background-color: var(--gray-100);
+      }
+    }
+
+    img {
+      background-color: transparent;
+    }
+  }
+}

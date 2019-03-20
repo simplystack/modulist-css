@@ -1,0 +1,4 @@
+.box {
+  border: 1px solid var(--layer-border-color);
+  border-radius: var(--border-radius);
+}

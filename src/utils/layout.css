@@ -1,0 +1,150 @@
+.position-relative {
+  position: relative;
+}
+.position-static {
+  position: static;
+}
+.position-sticky {
+  position: sticky;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-fixed {
+  position: fixed;
+}
+
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+.right-0 {
+  right: 0;
+}
+.bottom-0 {
+  bottom: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-scroll {
+  overflow: scroll;
+}
+.overflow-auto {
+  overflow: auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--breakpoint-xl);
+  width: 100%;
+}
+
+.container-1 {
+  margin: 0 auto;
+  max-width: var(--breakpoint-m);
+  width: 100%;
+}
+
+.container-2 {
+  margin: 0 auto;
+  max-width: var(--breakpoint-l);
+  width: 100%;
+}
+
+.container-3 {
+  margin: 0 auto;
+  max-width: var(--breakpoint-xl);
+  width: 100%;
+}
+
+.d-none {
+  display: none;
+}
+.d-flex {
+  display: flex;
+}
+.d-inline-flex {
+  display: inline-flex;
+}
+.d-block {
+  display: block;
+}
+.d-inline-block {
+  display: inline-block;
+}
+
+@media (--breakpoint-s) {
+  .s-d-none {
+    display: none;
+  }
+  .s-d-flex {
+    display: flex;
+  }
+  .s-d-inline-flex {
+    display: inline-flex;
+  }
+  .s-d-block {
+    display: block;
+  }
+  .s-d-inline-block {
+    display: inline-block;
+  }
+}
+
+@media (--breakpoint-m) {
+  .m-d-none {
+    display: none;
+  }
+  .m-d-flex {
+    display: flex;
+  }
+  .m-d-inline-flex {
+    display: inline-flex;
+  }
+  .m-d-block {
+    display: block;
+  }
+  .m-d-inline-block {
+    display: inline-block;
+  }
+}
+
+@media (--breakpoint-l) {
+  .l-d-none {
+    display: none;
+  }
+  .l-d-flex {
+    display: flex;
+  }
+  .l-d-inline-flex {
+    display: inline-flex;
+  }
+  .l-d-block {
+    display: block;
+  }
+  .l-d-inline-block {
+    display: inline-block;
+  }
+}
+
+@media (--breakpoint-xl) {
+  .xl-d-none {
+    display: none;
+  }
+  .xl-d-flex {
+    display: flex;
+  }
+  .xl-d-inline-flex {
+    display: inline-flex;
+  }
+  .xl-d-block {
+    display: block;
+  }
+  .xl-d-inline-block {
+    display: inline-block;
+  }
+}

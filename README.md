@@ -1,0 +1,43 @@
+# Modulist CSS
+
+The CSS implementation of SimplyStack's Design System
+
+
+## Install
+```sh
+$ npm install --save modulist-css
+```
+
+## Usage
+The included source files are written in CSS but compiled using postcss. 
+
+Create **postcss.config.js** in root folder:
+```javascript
+module.exports = {
+  plugins: [
+    require('autoprefixer'),
+    require('postcss-import'),
+    require('postcss-nested'),
+    require('postcss-preset-env')({
+      features: {
+        'custom-media-queries': true,
+        'custom-properties': false,
+      },
+    }),
+    require('cssnano')({ preset: 'default' }),
+  ]
+};
+```
+
+import in your CSS:
+```css
+@import "modulist-css/main.css";
+```
+
+or in js file
+```js
+import "modulist-css/main.css";
+```
+
+## License
+MIT

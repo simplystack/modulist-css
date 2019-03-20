@@ -1,0 +1,17 @@
+.progress {
+  background-color: var(--bg-gray);
+  border-radius: 4px;
+  height: 1rem;
+  overflow: hidden;
+}
+
+.progress__bar {
+  align-items: center;
+  background-color: var(--primary);
+  color: white;
+  display: flex;
+  font-size: 0.75rem;
+  height: 100%;
+  justify-content: center;
+  transition: width calc(var(--duration-200) * 6) ease;
+}

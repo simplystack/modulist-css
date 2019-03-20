@@ -1,0 +1,38 @@
+[data-theme="dark"] {
+  --input-caret-color: white;
+  --body-bg-color: #36393f;
+  --body-text-color: white;
+  --layer-background-color: #36393f;
+  --layer-border-color: rgba(0, 0, 0, 0.3);
+  --border-color: rgba(0, 0, 0, 0.3);
+  --divider-bg-color: black;
+  --text-secondary: #929292;
+  --selectable-item-bg-color-hover: var(--gray-900);
+  --selectable-item-bg-color-active: var(--blue-500);
+  --form-item-placeholder-color: #929292;
+  --form-item-chevron-icon-color: #929292;
+  --form-item-bg-color: rgba(0, 0, 0, 0.1);
+  --form-item-bg-color-disabled: hsla(0, 0%, 100%, 0.1);
+  --form-item-border-color: rgba(0, 0, 0, 0.3);
+  --form-item-border-color-hover: #040405;
+  --button-bg-disabled: hsla(0, 0%, 100%, 0.1);
+  --button-default-bg-color: transparent;
+  --button-default-bs-color: var(--gray-600);
+  --button-default-bs-color-hover: hsla(0, 0%, 100%, 0.1);
+  --button-default-bg-color-hover: hsla(0, 0%, 100%, 0.1);
+  --button-default-bg-color-active: hsla(0, 0%, 100%, 0.2);
+  --button-alternative-bg-color: hsla(0, 0%, 100%, 0.1);
+  --button-alternative-bg-color-hover: hsla(0, 0%, 100%, 0.2);
+  --button-alternative-bg-color-active: hsla(0, 0%, 100%, 0.3);
+  --button-subtle-bg-color-hover: hsla(0, 0%, 100%, 0.1);
+  --button-subtle-bg-color-active: hsla(0, 0%, 100%, 0.2);
+  --tooltip-bg-color: var(--gray-700);
+  --inline-message-info-bg-color: var(--primary);
+  --inline-message-info-icon-color: white;
+  --inline-message-warning-bg-color: var(--yellow);
+  --inline-message-warning-icon-color: white;
+  --inline-message-error-bg-color: var(--red);
+  --inline-message-error-icon-color: white;
+  --inline-message-success-bg-color: var(--green);
+  --inline-message-success-icon-color: white;
+}

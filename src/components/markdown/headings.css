@@ -1,0 +1,51 @@
+.markdown-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-condensed);
+    margin-bottom: var(--spacer-3);
+    margin-top: var(--spacer-4);
+
+    &:hover .anchor {
+      text-decoration: none;
+    }
+
+    tt,
+    code {
+      font-size: inherit;
+    }
+  }
+
+  h1 {
+    border-bottom: 1px solid var(--gray-200);
+    font-size: 2em;
+    padding-bottom: 0.3em;
+  }
+
+  h2 {
+    border-bottom: 1px solid var(--gray-200);
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
+
+  h5 {
+    font-size: 0.875em;
+  }
+
+  h6 {
+    color: var(--gray-500);
+    font-size: 0.85em;
+  }
+}

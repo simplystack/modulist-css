@@ -1,0 +1,36 @@
+.status {
+  background-color: var(--gray);
+  border-radius: 50%;
+  min-height: var(--spacer-2);
+  min-width: var(--spacer-2);
+}
+
+.status--nested {
+  box-shadow: 0 0 0 2px var(--body-bg-color);
+}
+
+.status--primary {
+  background-color: var(--blue);
+}
+
+.status--positive {
+  background-color: var(--green);
+}
+
+.status--negative {
+  background-color: var(--red);
+}
+
+.status--intermediary {
+  background-color: var(--yellow);
+}
+
+.status--size-1 {
+  min-height: var(--spacer-2);
+  min-width: var(--spacer-2);
+}
+
+.status--size-2 {
+  min-height: var(--spacer-3);
+  min-width: var(--spacer-3);
+}
