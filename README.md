@@ -9,7 +9,7 @@ $ npm install --save modulist-css
 ```
 
 ## Usage
-The included source files are written in CSS but compiled using postcss. 
+The included source files are written in CSS but needed to be compiled using postcss. 
 
 Create **postcss.config.js** in root folder:
 ```javascript
