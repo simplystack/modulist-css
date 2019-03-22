@@ -14,6 +14,11 @@ import in your js:
 import "@modulist/css/dist/modulist.css";
 ```
 
+## In browser
+```html
+<link rel="stylesheet" href="https://unpkg.com/@modulist/css@latest/dist/modulist.css">
+```
+
 ## Development
 The included source files are written in CSS but needed to be compiled using postcss. 
 
