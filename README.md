@@ -9,13 +9,9 @@ $ npm install --save @modulist/css
 ```
 
 ## Usage
-import in your CSS:
-```css
-@import "@modulist/css/main.css";
-```
-or in js file
+import in your js:
 ```js
-import "@modulist/css/main.css";
+import "@modulist/css/dist/modulist.css";
 ```
 
 ## Development
@@ -37,6 +33,11 @@ module.exports = {
     require('cssnano')({ preset: 'default' }),
   ]
 };
+```
+
+import in your js:
+```js
+import "@modulist/css/main.css";
 ```
 
 ## License
