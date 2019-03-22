@@ -5,7 +5,7 @@ The Modulist is a CSS design system
 
 ## Install
 ```sh
-$ npm install --save modulist-css
+$ npm install --save @modulist/css
 ```
 
 ## Usage
@@ -31,12 +31,12 @@ module.exports = {
 
 import in your CSS:
 ```css
-@import "modulist-css/main.css";
+@import "@modulist/css/main.css";
 ```
 
 or in js file
 ```js
-import "modulist-css/main.css";
+import "@modulist/css/main.css";
 ```
 
 ## License
