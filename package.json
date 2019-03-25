@@ -1,9 +1,14 @@
 {
   "name": "@modulist/css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "SimplyStack",
   "description": "The Modulist is a CSS design system",
   "main": "main.css",
+  "unpkg": "dist/modulist.css",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
   "scripts": {
     "build": "node build.js",
     "lint": "stylelint --fix 'src/**/*.css'",

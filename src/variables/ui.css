@@ -3,7 +3,7 @@
   --form-item-placeholder-color: var(--text-secondary);
   --form-item-chevron-icon-color: var(--text-secondary);
   --form-item-bg-color: white;
-  --form-item-bg-color-disabled: hsla(0, 0%, 100%, 0.1);
+  --form-item-bg-color-disabled: var(--gray-100);
   --form-item-border-color: var(--border-color);
   --form-item-border-color-hover: var(--gray-400);
   --selectable-item-bg-color-hover: var(--gray-100);
