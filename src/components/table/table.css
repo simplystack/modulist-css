@@ -34,7 +34,7 @@
 }
 
 /* Bordered */
-.table.is-bordered {
+.table--bordered {
   td,
   th {
     border-width: 1px;
@@ -49,13 +49,13 @@
 }
 
 /* Striped */
-.table.is-striped {
+.table--striped {
   tbody tr:nth-child(even) {
     background-color: var(--bg-gray);
   }
 }
 
 /* Fullwidth */
-.table.is-fullwidth {
+.table--fullwidth {
   width: 100%;
 }

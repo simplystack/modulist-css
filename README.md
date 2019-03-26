@@ -1,15 +1,26 @@
 # Modulist CSS
 
-The Modulist is a CSS design system
+The Modulist is a CSS design system. See [documentation](https://simplystack.github.io/modulist-css/).
 
 
 ## Install
 ```sh
-$ npm install --save modulist-css
+$ npm install --save @modulist/css
 ```
 
 ## Usage
-The included source files are written in CSS but compiled using postcss. 
+import in your js:
+```js
+import "@modulist/css/dist/modulist.css";
+```
+
+## In browser
+```html
+<link rel="stylesheet" href="https://unpkg.com/@modulist/css@latest/dist/modulist.css">
+```
+
+## Development
+The included source files are written in CSS but needed to be compiled using postcss. 
 
 Create **postcss.config.js** in root folder:
 ```javascript
@@ -29,14 +40,9 @@ module.exports = {
 };
 ```
 
-import in your CSS:
-```css
-@import "modulist-css/main.css";
-```
-
-or in js file
+import in your js:
 ```js
-import "modulist-css/main.css";
+import "@modulist/css/main.css";
 ```
 
 ## License

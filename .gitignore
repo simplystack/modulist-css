@@ -1,6 +1,6 @@
 .idea
 .DS_*
 .vscode
-docs
+docs/.vuepress/dist
 debug.log
 node_modules

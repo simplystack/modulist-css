@@ -1,8 +1,8 @@
 {
   "name": "@modulist/css",
+  "description": "The Modulist is a CSS design system",
   "version": "0.0.3",
   "author": "SimplyStack",
-  "description": "The Modulist is a CSS design system",
   "main": "main.css",
   "unpkg": "dist/modulist.css",
   "files": [
@@ -12,7 +12,9 @@
   "scripts": {
     "build": "node build.js",
     "lint": "stylelint --fix 'src/**/*.css'",
-    "prettify": "prettier --write 'src/**/*.css'"
+    "prettify": "prettier --write 'src/**/*.css'",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "keywords": [],
   "license": "MIT",
@@ -30,7 +32,8 @@
     "stylelint-config-prettier": "^5.0.0",
     "stylelint-config-recommended": "^2.1.0",
     "stylelint-config-standard": "^18.2.0",
-    "stylelint-order": "^2.1.0"
+    "stylelint-order": "^2.1.0",
+    "vuepress": "^1.0.0-alpha.44"
   },
   "husky": {
     "hooks": {
@@ -59,5 +62,8 @@
   "homepage": "https://github.com/simplystack/modulist-css#readme",
   "browserslist": [
     "> 1%"
-  ]
+  ],
+  "dependencies": {
+    "postcss-cli": "^6.1.2"
+  }
 }
