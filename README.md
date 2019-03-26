@@ -1,6 +1,6 @@
 # Modulist CSS
 
-The Modulist is a CSS design system. See [See documentation](https://simplystack.github.io/modulist-css/).
+The Modulist is a CSS design system. See [documentation](https://simplystack.github.io/modulist-css/).
 
 
 ## Install
