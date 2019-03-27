@@ -63,6 +63,11 @@
   }
 }
 
+.button__icon {
+  display: flex;
+  margin-left: 4px;
+}
+
 .button--size-0 {
   font-size: 14px;
   height: auto;
@@ -274,6 +279,7 @@
 }
 
 .button--icon-first {
+  flex-direction: row-reverse;
   .button__icon {
     margin-left: 0;
     margin-right: 4px;
