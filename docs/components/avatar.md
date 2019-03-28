@@ -1,4 +1,4 @@
-# Avatar
+# Avatar <Badge text="stable"/>
 Avatars are images that users can set as their profile picture.
 
 ## Default

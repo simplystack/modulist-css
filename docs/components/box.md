@@ -1,4 +1,4 @@
-# Box
+# Box <Badge text="stable"/>
 Box are flexible container that house a variety of content.
 
 ## Default

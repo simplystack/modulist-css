@@ -1,4 +1,4 @@
-# Select native
+# Select native <Badge text="stable"/>
 The browser built-in select dropdown, styled accordingly.
 
 ## Default

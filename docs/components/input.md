@@ -1,4 +1,4 @@
-# Input
+# Input <Badge text="stable"/>
 The text input and its variations.
 
 ## Default

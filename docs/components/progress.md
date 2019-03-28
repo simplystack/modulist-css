@@ -1,4 +1,4 @@
-# Progress
+# Progress <Badge text="stable"/>
 Simple progress component showing progress.
 
 ## Default

@@ -1,4 +1,4 @@
-# Textarea
+# Textarea <Badge text="stable"/>
 The multiline textarea and its variations.
 
 ## Default

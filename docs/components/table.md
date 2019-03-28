@@ -1,4 +1,4 @@
-# Table
+# Table <Badge text="review" type="warn"/>
 The inevitable HTML table, with special case cells.
 
 ## Default

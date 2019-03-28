@@ -1,4 +1,4 @@
-# Pagination
+# Pagination <Badge text="stable"/>
 Simple pagination component.
 
 ## Default

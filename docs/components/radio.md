@@ -1,4 +1,4 @@
-# Radio
+# Radio <Badge text="stable"/>
 The custom radio and it's states.
 
 ## Default

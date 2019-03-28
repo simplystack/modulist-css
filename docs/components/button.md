@@ -1,4 +1,4 @@
-# Button
+# Button <Badge text="review" type="warn" />
 
 ## Appearance
 

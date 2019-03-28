@@ -3,6 +3,7 @@ module.exports = {
   title: 'Modulist CSS',
   description: 'Vue components for the Modulist Design System',
   themeConfig: {
+    lastUpdated: 'Last Updated',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Components', link: '/components/' },
@@ -74,5 +75,5 @@ module.exports = {
       }),
       require('cssnano')({ preset: 'default' }),
     ],
-  }
+  },
 };

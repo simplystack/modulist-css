@@ -1,4 +1,4 @@
-# Tabs
+# Tabs <Badge text="stable"/>
 Simple horizontal tabs component.
 
 ## Default
