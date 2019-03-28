@@ -3,30 +3,41 @@ The custom checkbox and it's states.
 
 ## Default
 <div class="p-3 border rounded-2 my-3">
-  <div class="checkbox">
-    <input id="checkbox1" type="checkbox" class="checkbox__input">
-    <label for="checkbox1" class="checkbox__label">Check me</label>
-  </div>
+  <label class="checkbox mr-3">
+    <input type="checkbox" class="checkbox__input">
+    <span class="checkbox__mark"></span>
+    <span class="checkbox__text">Checkbox 1</span>
+  </label>
+  
+  <label class="checkbox mr-3">
+    <input disabled type="checkbox" class="checkbox__input">
+    <span class="checkbox__mark"></span>
+    <span class="checkbox__text">Checkbox 2</span>
+  </label>
+  
+  <label class="checkbox">
+    <input type="checkbox" class="checkbox__input">
+    <span class="checkbox__mark"></span>
+    <span class="checkbox__text">Checkbox 3</span>
+  </label>
 </div>
 
 ```html
-<div class="checkbox">
-  <input id="checkbox1" type="checkbox" class="checkbox__input">
-  <label for="checkbox1" class="checkbox__label">Check me</label>
-</div>
-```
-
-## Disabled
-<div class="p-3 border rounded-2 my-3">
-  <div class="checkbox">
-    <input disabled id="checkbox2" type="checkbox" class="checkbox__input">
-    <label for="checkbox2" class="checkbox__label">Check me</label>
-  </div>
-</div>
-
-```html
-<div class="checkbox">
-  <input disabled id="checkbox2" type="checkbox" class="checkbox__input">
-  <label for="checkbox2" class="checkbox__label">Check me</label>
-</div>
+<label class="checkbox">
+  <input type="checkbox" class="checkbox__input">
+  <span class="checkbox__mark"></span>
+  <span class="checkbox__text">Checkbox 1</span>
+</label>
+  
+<label class="checkbox">
+  <input disabled type="checkbox" class="checkbox__input">
+  <span class="checkbox__mark"></span>
+  <span class="checkbox__text">Checkbox 2</span>
+</label>
+  
+<label class="checkbox">
+  <input type="checkbox" class="checkbox__input">
+  <span class="checkbox__mark"></span>
+  <span class="checkbox__text">Checkbox 3</span>
+</label>
 ```
