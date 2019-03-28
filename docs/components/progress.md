@@ -1,7 +1,7 @@
 # Progress <Badge text="stable"/>
 Simple progress component showing progress.
 
-## Default
+## Determinate
 <div class="p-3 border rounded-2 my-3">
   <div class="progress">
     <div
@@ -28,29 +28,25 @@ Simple progress component showing progress.
 </div>
 ```
 
-## Label
+## Indeterminate
 <div class="p-3 border rounded-2 my-3">
-  <div class="progress">
+  <div class="progress progress--indeterminate">
     <div
       class="progress__bar"
       role="progressbar"
-      style="width: 25%"
-      aria-valuenow="25"
       aria-valuemin="0"
       aria-valuemax="100"
-    >25%</div>
+    ></div>
   </div>
 </div>
 
 ```html
-<div class="progress">
+<div class="progress progress--indeterminate">
   <div
     class="progress__bar"
     role="progressbar"
-    style="width: 25%"
-    aria-valuenow="25"
     aria-valuemin="0"
     aria-valuemax="100"
-  >25%</div>
+  ></div>
 </div>
 ```
