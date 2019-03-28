@@ -36,6 +36,17 @@
   }
 }
 
+/* Hovered */
+.radio__input:hover + .radio__circle {
+  border-color: var(--form-item-border-color-hover);
+}
+
+/* Focused */
+.radio__input:focus + .radio__circle {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px hsla(213, 100%, 52%, 0.3);
+}
+
 /* Checked */
 .radio__input:checked + .radio__circle {
   background-color: var(--primary);
@@ -45,17 +56,6 @@
 .radio__input:checked + .radio__circle::after {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
-}
-
-/* Hovered */
-.radio__input:not(:checked):not([disabled]):hover + .radio__circle {
-  border-color: var(--form-item-border-color-hover);
-}
-
-/* Focused */
-.radio__input:focus + .radio__circle {
-  border-color: var(--primary);
-  box-shadow: 0 0 0 2px hsla(213, 100%, 52%, 0.3);
 }
 
 /* Disabled */
