@@ -13,6 +13,9 @@
 
 .tabs__item {
   margin-right: 24px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .tabs__link {
@@ -34,9 +37,20 @@
   }
 }
 
+.tabs__link-icon {
+  display: flex;
+  margin-right: 4px;
+}
+
 .tabs__link--active {
   color: var(--primary);
   &::after {
     opacity: 1;
   }
+}
+
+.tabs__link--disabled {
+  cursor: default;
+  opacity: 0.5;
+  user-select: none;
 }

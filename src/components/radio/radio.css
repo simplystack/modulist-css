@@ -25,6 +25,7 @@
   left: 0;
   position: absolute;
   top: 0;
+  transition: all var(--duration-200) ease;
   width: 18px;
 }
 .radio__input:checked + .radio__label::after,
@@ -55,4 +56,12 @@
 
 .radio__input[disabled] + .radio__label {
   color: var(--text-secondary);
+}
+
+.radio:hover > .radio__label::before {
+  border-color: var(--gray-300);
+}
+
+.radio:focus + .radio__label::before {
+  border-color: var(--gray-300);
 }

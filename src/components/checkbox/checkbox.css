@@ -27,6 +27,7 @@
   left: 0;
   position: absolute;
   top: 0;
+  transition: all var(--duration-200) ease;
   width: 18px;
 }
 
@@ -61,4 +62,12 @@
 
 .checkbox__input[disabled] + .checkbox__label {
   color: var(--text-secondary);
+}
+
+.checkbox:hover > .checkbox__label::before {
+  border-color: var(--gray-300);
+}
+
+.checkbox__input:focus + .checkbox__label::before {
+  border-color: var(--gray-300);
 }
