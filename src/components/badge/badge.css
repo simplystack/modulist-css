@@ -9,6 +9,14 @@
   white-space: nowrap;
 }
 
+.badge--align-top {
+  vertical-align: top;
+}
+
+.badge--align-bottom {
+  vertical-align: bottom;
+}
+
 .badge--default {
   border: 1px solid var(--border-color);
 }
