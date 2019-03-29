@@ -272,9 +272,11 @@
     border-top-color: transparent;
     content: "";
     display: block;
-    height: 1rem;
+    height: 1em;
+    left: calc(50% - (1em / 2));
     position: absolute !important;
-    width: 1rem;
+    top: calc(50% - (1em / 2));
+    width: 1em;
   }
 }
 
