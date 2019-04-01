@@ -1,9 +1,10 @@
 {
   "name": "@modulist/css",
   "description": "The Modulist is a CSS design system",
-  "version": "0.0.14",
+  "version": "0.0.20",
   "author": "SimplyStack",
   "main": "main.css",
+  "module": "main.css",
   "unpkg": "dist/modulist.css",
   "files": [
     "dist/*",

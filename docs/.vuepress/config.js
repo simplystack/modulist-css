@@ -27,6 +27,7 @@ module.exports = {
           'components/box',
           'components/button',
           'components/checkbox',
+          'components/modal',
           'components/input',
           'components/pagination',
           'components/progress',
