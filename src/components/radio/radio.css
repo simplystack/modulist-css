@@ -63,3 +63,7 @@
   background-color: var(--form-item-bg-color-disabled);
   border-color: var(--form-item-bg-color-disabled);
 }
+
+.radio__input[disabled] ~ .radio__text {
+  color: var(--text-secondary);
+}
