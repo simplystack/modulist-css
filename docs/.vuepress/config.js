@@ -37,6 +37,7 @@ module.exports = {
           'components/table',
           'components/tabs',
           'components/textarea',
+          'components/toggle',
         ]
       },
       {

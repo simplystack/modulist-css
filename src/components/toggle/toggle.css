@@ -1,0 +1,80 @@
+:root,
+[data-theme="default"] {
+  --toggle-bg-color: var(--gray-200);
+  --toggle-bg-color-checked: var(--primary);
+  --toggle-bg-color-disabled: var(--form-item-bg-color-disabled);
+  --toggle-circle-bg-color: white;
+}
+
+.toggle {
+  align-items: center;
+  display: inline-flex;
+}
+
+.toggle__input {
+  appearance: none;
+  position: absolute;
+}
+
+.toggle__text {
+  margin-left: 8px;
+}
+
+.toggle__container {
+  background-color: var(--toggle-bg-color);
+  border-radius: 40px;
+  height: 20px;
+  position: relative;
+  width: 40px;
+
+  &::after {
+    background-color: var(--toggle-circle-bg-color);
+    border-radius: 50%;
+    content: "";
+    height: 16px;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    transition-duration: var(--duration-300);
+    transition-property: box-shadow, left;
+    transition-timing-function: ease;
+    width: 16px;
+  }
+}
+
+/* Hovered */
+.toggle__input:not([disabled]):hover + .toggle__container::after {
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Focused */
+.toggle__input:focus + .toggle__container::after {
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Checked */
+.toggle__input:checked + .toggle__container {
+  background-color: var(--toggle-bg-color-checked);
+}
+
+.toggle__input:checked + .toggle__container::after {
+  left: calc(100% - 16px - 2px);
+}
+
+/* Disabled */
+.toggle__input[disabled] + .toggle__container {
+  background-color: var(--toggle-bg-color-disabled);
+}
+
+.toggle__input[disabled] ~ .toggle__text {
+  color: var(--text-secondary);
+}
+
+.toggle--vertical {
+  flex-direction: column-reverse;
+
+  & .toggle__text {
+    margin-bottom: 4px;
+    margin-left: 0;
+  }
+}
