@@ -1,0 +1,26 @@
+.notification-container {
+  max-width: 360px;
+  min-width: 280px;
+  position: fixed;
+  z-index: var(--z-index-level-6);
+}
+
+.notification-container--top-left {
+  left: 16px;
+  top: 16px;
+}
+
+.notification-container--top-right {
+  right: 16px;
+  top: 16px;
+}
+
+.notification-container--bottom-left {
+  bottom: 16px;
+  left: 16px;
+}
+
+.notification-container--bottom-right {
+  bottom: 16px;
+  right: 16px;
+}

@@ -10,6 +10,8 @@
 @import "link/link.css";
 @import "markdown/markdown.css";
 @import "modal/modal.css";
+@import "notification/notification.css";
+@import "notification-container/notification-container.css";
 @import "object/object.css";
 @import "pagination/pagination.css";
 @import "progress/progress.css";

@@ -28,6 +28,7 @@ module.exports = {
           'components/button',
           'components/checkbox',
           'components/modal',
+          'components/notification',
           'components/input',
           'components/pagination',
           'components/progress',
