@@ -47,26 +47,9 @@
   box-shadow: 0 0 0 2px hsla(213, 100%, 52%, 0.3);
 }
 
-
-
-
-
-
 /* Checked */
 .radio__input:checked + .radio__circle {
-
-
-
-
-
   background-color: var(--primary);
-
-
-
-
-
-
-  
   border-color: var(--primary);
 }
 
