@@ -1,4 +1,4 @@
-# Checkbox <Badge text="review" type="warn"/>
+# Checkbox <Badge text="stable" />
 The custom checkbox and it's states.
 
 ## Default

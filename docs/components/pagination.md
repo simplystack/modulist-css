@@ -1,4 +1,4 @@
-# Pagination <Badge text="stable"/>
+# Pagination <Badge text="development" type="warn" />
 Simple pagination component.
 
 ## Default

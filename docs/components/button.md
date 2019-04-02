@@ -1,7 +1,6 @@
-# Button <Badge text="review" type="warn" />
+# Button <Badge text="development" type="warn" />
 
 ## Appearance
-
 <div class="p-3 border rounded-2 my-3">
   <button class="button button--default">Default</button>
   <button class="button button--primary">Primary</button>

@@ -1,4 +1,4 @@
-# Alert <Badge text="review" type="warn"/>
+# Alert <Badge text="development" type="warn" />
 Flash messages, or alerts, inform users of successful or pending actions. Use them sparingly. Don’t show more than one at a time.
 
 ## Type
