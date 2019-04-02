@@ -17,6 +17,8 @@
 @import "select-native/select-native.css";
 @import "spinner/spinner.css";
 @import "status/status.css";
+@import "step/step.css";
+@import "stepper/stepper.css";
 @import "tab/tab.css";
 @import "table/table.css";
 @import "tabs/tabs.css";

@@ -34,6 +34,7 @@ module.exports = {
           'components/radio',
           'components/select-native',
           'components/spinner',
+          'components/stepper',
           'components/table',
           'components/tabs',
           'components/textarea',
