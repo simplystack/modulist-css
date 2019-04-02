@@ -1,7 +1,7 @@
 module.exports = {
   base: '/modulist-css/',
   title: 'Modulist CSS',
-  description: 'Vue components for the Modulist Design System',
+  description: 'The Modulist is a CSS design system',
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
