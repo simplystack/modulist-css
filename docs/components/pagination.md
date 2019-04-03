@@ -3,21 +3,53 @@ Simple pagination component.
 
 ## Default
 <div class="p-3 border rounded-2 my-3">
-  <div class="pagination" aria-label="pagination">
-    <a href="#" class="pagination__item pagination__item--disabled" aria-label="Previous page">Previous</a>
-    <a href="#" class="pagination__item pagination__item--current" aria-current="true">1</a>
-    <a href="#" class="pagination__item" aria-label="Page 2">2</a>
-    <a href="#" class="pagination__item" aria-label="Page 3">3</a>
-    <a href="#" class="pagination__item" aria-label="Next page">Next</a>
-  </div>
+  <ul class="pagination">
+    <li class="pagination__item">
+      <button class="button button--default" disabled aria-label="Go to first page">First</button>
+    </li>
+    <li class="pagination__item">
+      <button class="button button--default" disabled aria-label="Go to previous page">Previous</button>
+    </li>
+    <li class="pagination__item">
+      <button class="button button--primary" aria-label="Go to page number 1">1</button>
+    </li>
+    <li class="pagination__item">
+      <button class="button button--default" aria-label="Go to page number 2">2</button>
+    </li>
+    <li class="pagination__item">
+      <button class="button button--default" aria-label="Go to page number 3">3</button>
+    </li>
+    <li class="pagination__item">
+      <button class="button button--default" aria-label="Go to next page">Next</button>
+    </li>
+    <li class="pagination__item">
+      <button class="button button--default" aria-label="Go to last page">Last</button>
+    </li>
+  </ul>
 </div>
 
 ```html
-<div class="pagination" aria-label="pagination">
-  <a href="#" class="pagination__item pagination__item--disabled" aria-label="Previous page">Previous</a>
-  <a href="#" class="pagination__item pagination__item--current" aria-current="true">1</a>
-  <a href="#" class="pagination__item" aria-label="Page 2">2</a>
-  <a href="#" class="pagination__item" aria-label="Page 3">3</a>
-  <a href="#" class="pagination__item" aria-label="Next page">Next</a>
-</div>
+<ul class="pagination">
+  <li class="pagination__item">
+    <button class="button button--default" disabled aria-label="Go to first page">First</button>
+  </li>
+  <li class="pagination__item">
+    <button class="button button--default" disabled aria-label="Go to previous page">Previous</button>
+  </li>
+  <li class="pagination__item">
+    <button class="button button--primary" aria-label="Go to page number 1">1</button>
+  </li>
+  <li class="pagination__item">
+    <button class="button button--default" aria-label="Go to page number 2">2</button>
+  </li>
+  <li class="pagination__item">
+    <button class="button button--default" aria-label="Go to page number 3">3</button>
+  </li>
+  <li class="pagination__item">
+    <button class="button button--default" aria-label="Go to next page">Next</button>
+  </li>
+  <li class="pagination__item">
+    <button class="button button--default" aria-label="Go to last page">Last</button>
+  </li>
+</ul>
 ```
