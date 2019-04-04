@@ -1,0 +1,47 @@
+:root,
+[data-theme="default"] {
+  --chip-bg-color: var(--gray-100);
+}
+.chip {
+  align-items: center;
+  background-color: var(--chip-bg-color);
+  border-radius: 3px;
+  display: inline-flex;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 8px;
+}
+
+.chip:focus {
+  background-color: var(--blue-500);
+  color: white;
+  outline: none;
+}
+
+.chip__close {
+  display: flex;
+  margin-left: 4px;
+}
+
+.chip__delete {
+  align-items: center;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  color: currentColor;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 2px;
+}
+
+.chip__delete:hover {
+  background-color: var(--white-fade-50);
+}
+
+.chip__delete:focus {
+  box-shadow: inset 0 0 0 1px var(--blue-500), 0 0 0 2px rgba(38, 132, 255, 0.3);
+  outline: none;
+}

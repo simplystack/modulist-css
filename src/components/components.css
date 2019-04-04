@@ -5,6 +5,7 @@
 @import "box/box.css";
 @import "button/button.css";
 @import "checkbox/checkbox.css";
+@import "chip/chip.css";
 @import "grid/grid.css";
 @import "image/image.css";
 @import "link/link.css";
@@ -16,7 +17,9 @@
 @import "pagination/pagination.css";
 @import "progress/progress.css";
 @import "radio/radio.css";
+@import "select/select.css";
 @import "select-native/select-native.css";
+@import "select-option/select-option.css";
 @import "spinner/spinner.css";
 @import "status/status.css";
 @import "step/step.css";
