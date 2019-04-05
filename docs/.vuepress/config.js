@@ -34,6 +34,7 @@ module.exports = {
           'components/notification',
           'components/input',
           'components/pagination',
+          'components/popover',
           'components/progress',
           'components/radio',
           'components/select',
