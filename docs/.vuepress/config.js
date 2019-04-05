@@ -36,6 +36,7 @@ module.exports = {
           'components/pagination',
           'components/progress',
           'components/radio',
+          'components/select',
           'components/select-native',
           'components/spinner',
           'components/stepper',
