@@ -2,6 +2,9 @@ module.exports = {
   base: '/modulist-css/',
   title: 'Modulist CSS',
   description: 'The Modulist is a CSS design system',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ],
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
