@@ -15,6 +15,7 @@
 @import "notification-container/notification-container.css";
 @import "object/object.css";
 @import "pagination/pagination.css";
+@import "popover/popover.css";
 @import "progress/progress.css";
 @import "radio/radio.css";
 @import "select/select.css";
