@@ -11,4 +11,5 @@
   --input-caret-color: var(--gray-900);
   --layer-background-color: white;
   --layer-border-color: var(--border-color);
+  --divider-bg-color: var(--gray-200);
 }
