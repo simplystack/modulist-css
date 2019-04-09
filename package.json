@@ -1,14 +1,16 @@
 {
   "name": "@modulist/css",
   "description": "The Modulist is a CSS design system",
-  "version": "0.0.33",
+  "version": "0.0.34",
   "author": "SimplyStack",
   "main": "index.js",
   "style": "index.css",
   "unpkg": "dist/modulist.css",
   "files": [
     "dist/*",
-    "src/*"
+    "src/*",
+    "index.css",
+    "index.js"
   ],
   "scripts": {
     "build": "node build.js",
