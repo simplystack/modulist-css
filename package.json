@@ -3,8 +3,8 @@
   "description": "The Modulist is a CSS design system",
   "version": "0.0.32",
   "author": "SimplyStack",
-  "main": "main.css",
-  "module": "main.css",
+  "main": "index.js",
+  "style": "index.css",
   "unpkg": "dist/modulist.css",
   "files": [
     "dist/*",
