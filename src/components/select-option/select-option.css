@@ -31,7 +31,7 @@
 }
 
 .select-option--disabled {
-  color: var(--gray-200);
+  color: var(--text-secondary);
   cursor: not-allowed;
 }
 

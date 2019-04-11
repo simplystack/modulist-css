@@ -1,0 +1,35 @@
+:root,
+[data-theme="default"] {
+  --bg-blue-light: var(--blue-000);
+  --bg-blue: var(--blue-500);
+  --bg-gray-dark: var(--gray-900);
+  --bg-gray-light: var(--gray-000);
+  --bg-gray: var(--gray-100);
+  --bg-green: var(--green-500);
+  --bg-green-light: var(--green-100);
+  --bg-purple: var(--purple-500);
+  --bg-purple-light: var(--purple-000);
+  --bg-red: var(--red-500);
+  --bg-red-light: var(--red-100);
+  --bg-white: var(--white);
+  --bg-black: var(--black);
+  --bg-yellow: var(--yellow-500);
+  --bg-yellow-light: var(--yellow-000);
+  --color-blue: var(--blue-500);
+  --color-gray-dark: var(--gray-900);
+  --color-gray-light: var(--gray-500);
+  --color-gray: var(--gray-600);
+  --color-green: var(--green-500);
+  --color-yellow: var(--yellow-500);
+  --color-yellow-light: var(--yellow-000);
+  --color-purple: var(--purple);
+  --color-red: var(--red-500);
+  --color-red-light: var(--red-000);
+  --color-white: var(--white);
+  --primary: var(--blue-500);
+  --primary-light: var(--blue-000);
+  --primary-dark: var(--blue-900);
+  --accent: var(--purple-500);
+  --accent-light: var(--purple-000);
+  --accent-dark: var(--purple-900);
+}

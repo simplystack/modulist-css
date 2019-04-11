@@ -3,7 +3,7 @@
   --modal-size-1: 320px;
   --modal-size-2: 555px;
   --modal-size-3: 720px;
-  --modal-bg-color: white;
+  --modal-bg-color: var(--layer-background-color);
   --modal-overlay-bg-color: rgba(10, 10, 10, 0.86);
 }
 

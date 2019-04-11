@@ -13,11 +13,11 @@
   font-family: var(--body-font);
   font-size: var(--body-font-size);
   padding: 0 16px;
-  transition: padding 100ms ease-in-out, border-color 100ms ease-in-out;
 
   /* Focus state */
   &:focus {
-    border-color: var(--blue);
+    border-color: var(--form-item-border-color-focus);
+    box-shadow: 0 0 0 2px var(--form-item-box-shadow-focus);
     outline: none;
   }
 
@@ -29,6 +29,7 @@
   /* Disabled state */
   &[disabled] {
     background-color: var(--form-item-bg-color-disabled);
+    border-color: var(--form-item-border-color-disabled);
     cursor: not-allowed;
   }
 

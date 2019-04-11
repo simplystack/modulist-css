@@ -1,9 +1,8 @@
 :root,
 [data-theme="default"] {
-  --toggle-bg-color: var(--gray-200);
-  --toggle-bg-color-checked: var(--primary);
-  --toggle-bg-color-disabled: var(--form-item-bg-color-disabled);
-  --toggle-circle-bg-color: white;
+  --toggle-circle-bg-color: var(--gray-200);
+  --toggle-circle-bg-color-checked: white;
+  --toggle-circle-bg-color-disabled: var(--gray-200);
 }
 
 .toggle {
@@ -21,7 +20,8 @@
 }
 
 .toggle__container {
-  background-color: var(--toggle-bg-color);
+  background-color: var(--form-item-bg-color);
+  border: 1px solid var(--form-item-border-color);
   border-radius: 40px;
   height: 20px;
   position: relative;
@@ -34,7 +34,7 @@
     height: 16px;
     left: 2px;
     position: absolute;
-    top: 2px;
+    top: 1px;
     transition-duration: var(--duration-300);
     transition-property: box-shadow, left;
     transition-timing-function: ease;
@@ -43,33 +43,42 @@
 }
 
 /* Hovered */
-.toggle__input:not([disabled]):hover + .toggle__container::after {
-  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.2);
+.toggle__input:hover + .toggle__container {
+  border-color: var(--form-item-border-color-hover);
 }
 
 /* Focused */
-.toggle__input:focus + .toggle__container::after {
-  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.2);
+.toggle__input:focus + .toggle__container {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px var(--form-item-box-shadow-focus);
 }
 
 /* Checked */
 .toggle__input:checked + .toggle__container {
-  background-color: var(--toggle-bg-color-checked);
+  background-color: var(--form-item-bg-color-checked);
+  border-color: var(--form-item-border-color-checked);
 }
 
 .toggle__input:checked + .toggle__container::after {
+  background-color: var(--toggle-circle-bg-color-checked);
   left: calc(100% - 16px - 2px);
 }
 
 /* Disabled */
 .toggle__input[disabled] + .toggle__container {
-  background-color: var(--toggle-bg-color-disabled);
+  background-color: var(--form-item-bg-color-disabled);
+  border-color: var(--form-item-border-color-disabled);
+}
+
+.toggle__input[disabled] + .toggle__container::after {
+  background-color: var(--toggle-circle-bg-color-disabled);
 }
 
 .toggle__input[disabled] ~ .toggle__text {
   color: var(--text-secondary);
 }
 
+/* Vertical */
 .toggle--vertical {
   align-items: flex-start;
   flex-direction: column-reverse;

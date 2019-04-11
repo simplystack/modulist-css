@@ -1,9 +1,10 @@
 @import "animations.css";
 @import "colors.css";
+@import "colors-map.css";
 @import "media.css";
 @import "misc.css";
 @import "spacing.css";
 @import "transition-duration.css";
 @import "typography.css";
-@import "ui.css";
+@import "shared.css";
 @import "z-index.css";

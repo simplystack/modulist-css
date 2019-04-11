@@ -3,13 +3,23 @@
   --form-item-placeholder-color: var(--text-secondary);
   --form-item-chevron-icon-color: var(--text-secondary);
   --form-item-bg-color: white;
-  --form-item-bg-color-disabled: var(--gray-100);
+  --form-item-bg-color-checked: var(--primary);
+  --form-item-bg-color-disabled: var(--gray-000);
   --form-item-border-color: var(--border-color);
+  --form-item-border-color-disabled: var(--border-color);
   --form-item-border-color-hover: var(--gray-400);
+  --form-item-border-color-focus: var(--primary);
+  --form-item-border-color-checked: var(--primary);
+  --form-item-box-shadow-focus: hsla(213, 100%, 52%, 0.3);
   --selectable-item-bg-color-hover: var(--gray-100);
   --selectable-item-bg-color-active: var(--blue-100);
   --input-caret-color: var(--gray-900);
   --layer-background-color: white;
   --layer-border-color: var(--border-color);
   --divider-bg-color: var(--gray-200);
+  --text-secondary: #596a90;
+  --border-gray: var(--gray-200);
+  --border-gray-dark: var(--gray-300);
+  --body-text-color: var(--gray-800);
+  --body-bg-color: var(--gray-000);
 }

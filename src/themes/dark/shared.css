@@ -1,0 +1,20 @@
+[data-theme="dark"] {
+  --form-item-placeholder-color: #929292;
+  --form-item-chevron-icon-color: #929292;
+  --form-item-bg-color: hsl(220, 7%, 24%);
+  --form-item-bg-color-disabled: hsla(220, 5%, 34%, 1);
+  --form-item-border-color: hsla(220, 7%, 17%, 1);
+  --form-item-border-color-disabled: hsla(220, 6%, 21%, 1);
+  --form-item-border-color-hover: #040405;
+  --selectable-item-bg-color-hover: var(--gray-900);
+  --selectable-item-bg-color-active: var(--blue-500);
+  --input-caret-color: white;
+  --layer-background-color: hsla(0, 0%, 100%, 0.05);
+  --layer-border-color: rgba(0, 0, 0, 0.3);
+  --divider-bg-color: black;
+  --text-secondary: hsla(0, 0%, 70%, 1);
+  --border-gray: var(--gray-200);
+  --border-gray-dark: var(--gray-300);
+  --body-text-color: white;
+  --body-bg-color: #36393f;
+}

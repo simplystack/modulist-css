@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en" data-theme="default">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modulist Design System – v1.0.0-alpha.0</title>
+  <link rel="stylesheet" href="../dist/modulist.css">
+</head>
+<body>
+
+  <div class="flex flex-items-center flex-column py-6 my-6">
+    <label class="toggle">
+      <input name="dark-mode" class="toggle__input" type="checkbox">
+      <div class="toggle__container"></div>
+      <div class="toggle__text">Dark mode</div>
+    </label>
+    <h1 class="h1">
+      Modulist Design System <span class="badge badge--primary">v1.0.0-alpha.0</span>
+    </h1>
+  </div>
+
+  <div class="container mb-5">
+    <div class="box p-3">
+      <div class="flex-grid gutter">
+        <!--input-->
+        <div class="flex-col-12 m-flex-col-4">
+          <div class="textbox textbox--wide">
+            <label for="input5" class="textbox__label">Normal</label>
+            <input id="input5" type="text" class="textbox__input" placeholder="Normal">
+          </div>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <div class="textbox textbox--wide">
+            <label for="input6" class="textbox__label">Disabled</label>
+            <input disabled id="input6" type="text" class="textbox__input" placeholder="Disabled">
+          </div>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <div class="textbox textbox--wide">
+            <label for="input7" class="textbox__label">Readonly</label>
+            <input readonly id="input7" type="text" class="textbox__input" placeholder="Readonly">
+          </div>
+        </div>
+        <!--textarea-->
+        <div class="flex-col-12 m-flex-col-4">
+          <div class="textbox textbox--wide">
+            <label for="textarea1" class="textbox__label">Normal</label>
+            <textarea id="textarea1" type="text" class="textbox__textarea" placeholder="Normal"></textarea>
+          </div>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <div class="textbox textbox--wide">
+            <label for="textarea2" class="textbox__label">Disabled</label>
+            <textarea disabled id="textarea2" type="text" class="textbox__textarea" placeholder="Disabled"></textarea>
+          </div>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <div class="textbox textbox--wide">
+            <label for="textarea3" class="textbox__label">Readonly</label>
+            <textarea readonly id="textarea3" type="text" class="textbox__textarea" placeholder="Readonly"></textarea>
+          </div>
+        </div>
+        <!--checkbox-->
+        <div class="flex-col-12 m-flex-col-4">
+          <label class="checkbox">
+            <input type="checkbox" class="checkbox__input">
+            <span class="checkbox__mark"></span>
+            <span class="checkbox__text">Normal</span>
+          </label>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <label class="checkbox">
+            <input disabled type="checkbox" class="checkbox__input">
+            <span class="checkbox__mark"></span>
+            <span class="checkbox__text">Disabled</span>
+          </label>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <label class="checkbox">
+            <input checked type="checkbox" class="checkbox__input">
+            <span class="checkbox__mark"></span>
+            <span class="checkbox__text">Checked</span>
+          </label>
+        </div>
+        <!--radio-->
+        <div class="flex-col-12 m-flex-col-4">
+          <label class="radio">
+            <input name="radio-group" class="radio__input" type="radio" />
+            <span class="radio__circle"></span>
+            <span class="radio__text">Normal</span>
+          </label>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <label class="radio">
+            <input disabled name="radio-group" class="radio__input" type="radio" />
+            <span class="radio__circle"></span>
+            <span class="radio__text">Disabled</span>
+          </label>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <label class="radio">
+            <input checked name="radio-group" class="radio__input" type="radio" />
+            <span class="radio__circle"></span>
+            <span class="radio__text">Checked</span>
+          </label>
+        </div>
+        <!--toggle-->
+        <div class="flex-col-12 m-flex-col-4">
+          <label class="toggle">
+            <input class="toggle__input" type="checkbox">
+            <div class="toggle__container"></div>
+            <div class="toggle__text">Normal</div>
+          </label>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <label class="toggle">
+            <input disabled class="toggle__input" type="checkbox">
+            <div class="toggle__container"></div>
+            <div class="toggle__text">Normal</div>
+          </label>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <label class="toggle">
+            <input checked class="toggle__input" type="checkbox">
+            <div class="toggle__container"></div>
+            <div class="toggle__text">Toggled</div>
+          </label>
+        </div>
+        <!--select-->
+        <div class="flex-col-12 m-flex-col-4">
+          <div class="select">
+            <label for="select1" class="select__label">Normal</label>
+            <input type="hidden" id="select1" name="select1">
+            <div class="select__container" tabindex="0">
+              <div class="select__display">
+                <div class="select__placeholder">Normal</div>
+              </div>
+              <svg width="18px" height="18px" class="select__chevron">
+                <use xlink:href="#chevron-down-icon"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <div class="select select--disabled">
+            <label for="select2" class="select__label">Disabled</label>
+            <input type="hidden" id="select2" name="select2">
+            <div class="select__container" tabindex="-1">
+              <div class="select__display">
+                <div class="select__placeholder">Disabled</div>
+              </div>
+              <svg width="18px" height="18px" class="select__chevron">
+                <use xlink:href="#chevron-down-icon"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="flex-col-12 m-flex-col-4">
+          <div class="select select--open">
+            <label for="select3" class="select__label">Open</label>
+            <input type="hidden" id="select3" name="select3">
+            <div class="select__container" tabindex="0">
+              <div class="select__display">
+                <div class="select__placeholder">Open</div>
+              </div>
+              <svg width="18px" height="18px" class="select__chevron">
+                <use xlink:href="#chevron-down-icon"></use>
+              </svg>
+            </div>
+            <div class="select__dropdown" tabindex="-1">
+              <div class="select-option">Option 1</div>
+              <div class="select-option select-option--disabled">Option 2</div>
+              <div class="select-option">Option 3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="flex-grid gutter">
+
+      <div class="flex-col-12 m-flex-col-6">
+        <div class="box p-5">
+          <h1 class="h1 text-align-center">Registration form</h1>
+          <div class="text-secondary text-align-center f3">Fill out this form please</div>
+
+          <div class="textbox textbox--wide mb-3">
+            <label for="input1" class="textbox__label">Email</label>
+            <input id="input1" type="email" class="textbox__input" placeholder="Email address">
+          </div>
+
+          <div class="textbox textbox--wide mb-3">
+            <label for="input2" class="textbox__label">Password</label>
+            <input id="input2" type="text" class="textbox__input" placeholder="Password">
+          </div>
+
+          <label class="toggle mb-3">
+            <input class="toggle__input" type="checkbox">
+            <div class="toggle__container"></div>
+            <div class="toggle__text">Sudo</div>
+          </label>
+
+          <button class="button button--size-4 button--primary button--wide">Create account</button>
+        </div>
+      </div>
+
+      <div class="flex-col-12 m-flex-col-6">
+        <div class="box p-5">
+          <h1 class="h1 text-align-center">Login form</h1>
+          <div class="text-secondary text-align-center f3">Fill out this form please</div>
+
+          <div class="textbox textbox--wide mb-3">
+            <label for="input10" class="textbox__label">Email</label>
+            <input id="input10" type="email" class="textbox__input" placeholder="Email address">
+          </div>
+
+          <div class="textbox textbox--wide mb-3">
+            <label for="input11" class="textbox__label">Password</label>
+            <input id="input11" type="text" class="textbox__input" placeholder="Password">
+          </div>
+
+          <label class="toggle mb-3">
+            <input class="toggle__input" type="checkbox">
+            <div class="toggle__container"></div>
+            <div class="toggle__text">Remember me</div>
+          </label>
+
+          <button class="button button--size-4 button--primary button--wide">Login</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="flex-grid gutter">
+
+      <div class="flex-col-12 m-flex-col-6">
+        <div class="box p-3">
+          <div class="flex-grid gutter flex-items-center">
+            <!--button-->
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--default">Default</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button disabled class="button button--size-4 button--wide button--default">Default</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--default button--loading">Default</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <div class="bg-black p-2 rounded-2">
+                <button class="button button--size-4 button--wide button--default button--inverted">Default</button>
+              </div>
+            </div>
+
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--primary">Primary</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button disabled class="button button--size-4 button--wide button--primary">Primary</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--primary button--loading">Primary</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <div class="bg-black p-2 rounded-2">
+                <button class="button button--size-4 button--wide button--primary button--inverted">Primary</button>
+              </div>
+            </div>
+
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--alternative">Alternative</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button disabled class="button button--size-4 button--wide button--alternative">Alternative</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--alternative button--loading">Alternative</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <div class="bg-black p-2 rounded-2">
+                <button class="button button--size-4 button--wide button--alternative button--inverted">Alternative</button>
+              </div>
+            </div>
+
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--subtle">Subtle</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button disabled class="button button--size-4 button--wide button--subtle">Subtle</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--subtle button--loading">Subtle</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <div class="bg-black p-2 rounded-2">
+                <button class="button button--size-4 button--wide button--subtle button--inverted">Subtle</button>
+              </div>
+            </div>
+
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--success">Success</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button disabled class="button button--size-4 button--wide button--success">Success</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--success button--loading">Success</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <div class="bg-black p-2 rounded-2">
+                <button class="button button--size-4 button--wide button--success button--inverted">Success</button>
+              </div>
+            </div>
+
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--danger">Danger</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button disabled class="button button--size-4 button--wide button--danger">Danger</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <button class="button button--size-4 button--wide button--danger button--loading">Danger</button>
+            </div>
+            <div class="flex-col-12 m-flex-col-3">
+              <div class="bg-black p-2 rounded-2">
+                <button class="button button--size-4 button--wide button--danger button--inverted">Danger</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-col-12 m-flex-col-6">
+        <div class="box p-3">
+
+          <div class="progress progress--indeterminate mb-5">
+            <div
+              class="progress__bar"
+              role="progressbar"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+
+          <div class="flex flex-justify-around mb-5">
+            <div class="spinner"></div>
+            <div class="spinner spinner--primary"></div>
+          </div>
+
+          <div class="tabs" id="tabs1">
+            <ul role="tablist" class="tabs__list">
+              <li class="tabs__item">
+                <a role="tab" href="#tab-1" class="tabs__link tabs__link--active">Tab 1</a>
+              </li>
+              <li class="tabs__item">
+                <a role="tab" href="#tab-2" class="tabs__link">Tab 2</a>
+              </li>
+              <li class="tabs__item">
+                <a role="tab" href="#tab-3" class="tabs__link">Tab 3</a>
+              </li>
+            </ul>
+
+            <div class="tabs__content mb-5">
+              <div id="tab-1" role="tabpanel" class="tab tab--active">
+                <div class="py-3">Tab 1 content</div>
+              </div>
+              <div id="tab-2" role="tabpanel" class="tab">
+                <div class="py-3">Tab 2 content</div>
+              </div>
+              <div id="tab-3" role="tabpanel" class="tab">
+                <div class="py-3">Tab 3 content</div>
+              </div>
+            </div>
+
+            <div class="notification mb-5">
+              <div class="notification__icon">
+                <svg width="20" height="20" viewBox="0 0 20 20">
+                  <use xlink:href="#success"></use>
+                </svg>
+              </div>
+              <div class="notification__content">
+                <div class="notification__title">Update available</div>
+                <div class="notification__message">New content available, please refresh your page.</div>
+              </div>
+              <div class="notification__close">
+                <button class="button button--size-1 button--subtle">
+                  <svg width="16" height="16">
+                    <use xlink:href="#cross-icon"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div tabindex="-1" class="modal__container mb-5">
+              <div class="modal__header">
+                <h3 class="modal__title">Modal Title</h3>
+                <button class="button button--size-1 button--subtle">
+                  <svg width="16" height="16">
+                    <use xlink:href="#cross-icon"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="modal__body">
+                Modal content
+              </div>
+              <div class="modal__footer">
+                <button class="button button--subtle">Close</button>
+                <button class="button button--primary">Action</button>
+              </div>
+            </div>
+
+            <ul class="pagination mb-5">
+              <li class="pagination__item">
+                <button class="button button--default" disabled aria-label="Go to first page">First</button>
+              </li>
+              <li class="pagination__item">
+                <button class="button button--default" disabled aria-label="Go to previous page">Previous</button>
+              </li>
+              <li class="pagination__item">
+                <button class="button button--primary" aria-label="Go to page number 1">1</button>
+              </li>
+              <li class="pagination__item">
+                <button class="button button--default" aria-label="Go to page number 2">2</button>
+              </li>
+              <li class="pagination__item">
+                <button class="button button--default" aria-label="Go to page number 3">3</button>
+              </li>
+              <li class="pagination__item">
+                <button class="button button--default" aria-label="Go to next page">Next</button>
+              </li>
+              <li class="pagination__item">
+                <button class="button button--default" aria-label="Go to last page">Last</button>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    const toggle = document.querySelector('[name="dark-mode"]');
+
+    toggle.addEventListener('change', (e) => {
+      document.documentElement.setAttribute('data-theme', e.target.checked ? 'dark' : 'default');
+    });
+  </script>
+</body>
+</html>

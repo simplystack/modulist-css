@@ -1,5 +1,5 @@
 .notification {
-  background-color: white;
+  background-color: var(--layer-background-color);
   border-radius: 4px;
   box-shadow: 0 0 1px rgba(76, 76, 76, 0.32),
     0 12px 10px -8px rgba(76, 76, 76, 0.12);

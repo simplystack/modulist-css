@@ -1,5 +1,5 @@
 .progress {
-  background-color: var(--bg-gray);
+  background-color: var(--border-color);
   border-radius: 4px;
   display: block;
   height: 4px;
