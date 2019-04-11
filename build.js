@@ -2,9 +2,9 @@ const fs = require('fs');
 const postcss = require('postcss');
 const { plugins } = require('./postcss.config');
 
-fs.readFile('./main.css', (err, css) => {
+fs.readFile('./index.css', (err, css) => {
   postcss(plugins)
-    .process(css, {from: './main.css', to: 'dist/modulist.css', map: { inline: false }})
+    .process(css, {from: './index.css', to: 'dist/modulist.css', map: { inline: false }})
     .then(result => {
       fs.writeFile('dist/modulist.css', result.css, () => true);
       if (result.map) {

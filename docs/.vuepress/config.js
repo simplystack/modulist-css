@@ -30,6 +30,7 @@ module.exports = {
           'components/box',
           'components/button',
           'components/checkbox',
+          'components/menu',
           'components/modal',
           'components/notification',
           'components/input',
