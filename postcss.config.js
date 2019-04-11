@@ -1,3 +1,6 @@
+const pkg = require('./package');
+const banner = `Modulist CSS ${pkg.version} \n(c) 2019 SimplyStack \nReleased under the MIT License.`;
+
 module.exports = {
   plugins: [
     require('autoprefixer'),
@@ -10,5 +13,6 @@ module.exports = {
       },
     }),
     require('cssnano')({ preset: 'default' }),
+    require('postcss-banner')({ banner: banner, important: true }),
   ]
 };
