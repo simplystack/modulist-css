@@ -16,11 +16,11 @@ import "@modulist/css/dist/modulist.css";
 
 ## In browser
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@modulist/css@latest/dist/modulist.css">
+<link rel="stylesheet" href="https://unpkg.com/@modulist/css">
 ```
 
 ## Development
-The included source files are written in CSS but needed to be compiled using postcss. 
+The included source files are written in CSS but needed to be compiled using postcss.
 
 Create **postcss.config.js** in root folder:
 ```javascript
