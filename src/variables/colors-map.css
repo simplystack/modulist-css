@@ -32,4 +32,10 @@
   --accent: var(--purple-500);
   --accent-light: var(--purple-000);
   --accent-dark: var(--purple-900);
+  --gray: var(--gray-500);
+  --blue: var(--blue-500);
+  --green: var(--green-500);
+  --red: var(--red-500);
+  --yellow: var(--yellow-500);
+  --purple: var(--purple-500);
 }
