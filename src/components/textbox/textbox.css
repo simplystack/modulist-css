@@ -1,3 +1,8 @@
+.textbox {
+  display: inline-block;
+  position: relative;
+}
+
 .textbox__label {
   display: block;
   margin-bottom: 4px;
@@ -77,6 +82,34 @@
 
   & .textbox__message {
     color: var(--red);
+  }
+}
+
+/* Floated state */
+.textbox--floated {
+  .textbox__label {
+    color: var(--text-secondary);
+    font-size: 11px;
+    font-weight: var(--font-weight-bold);
+    left: 16px;
+    opacity: 0;
+    position: absolute;
+    top: 7px;
+    transition: opacity var(--duration-200) ease-in-out;
+    visibility: hidden;
+    white-space: nowrap;
+    z-index: 1;
+  }
+}
+
+/* Floated-active state */
+.textbox--floated-active {
+  .textbox__label {
+    opacity: 1;
+    visibility: visible;
+  }
+  .textbox__input {
+    padding-top: 15px;
   }
 }
 

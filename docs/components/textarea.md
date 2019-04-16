@@ -3,15 +3,30 @@ The multiline textarea and its variations.
 
 ## Default
 <div class="p-3 border rounded-2 my-3">
-  <div class="textbox">
-    <label for="textarea1" class="textbox__label">Textarea</label>
-    <textarea id="textarea1" type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
-  </div>
+  <label class="textbox">
+    <div class="textbox__label">Textarea</div>
+    <textarea type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
+  </label>
 </div>
 
 ```html
 <label class="textbox">
   <div class="textbox__label">Textarea</div>
+  <textarea type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
+</label>
+```
+
+## Floated
+<div class="p-3 border rounded-2 my-3">
+  <label class="textbox textbox--floated" :class="{ 'textbox--floated-active': value !== '' }">
+    <div class="textbox__label">Floated label</div>
+    <textarea v-model="value" type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
+  </label>
+</div>
+
+```html
+<label class="textbox">
+  <div class="textbox__label">Floated label</div>
   <textarea type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
 </label>
 ```
@@ -45,3 +60,13 @@ The multiline textarea and its variations.
   <textarea type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
 </label>
 ```
+
+<script>
+export default {
+  data() {
+    return {
+      value: '',
+    };
+  },
+};
+</script>

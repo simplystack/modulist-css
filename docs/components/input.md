@@ -16,6 +16,21 @@ The text input and its variations.
 </label>
 ```
 
+## Floated
+<div class="p-3 border rounded-2 my-3">
+  <label class="textbox textbox--floated" :class="{ 'textbox--floated-active': value !== '' }">
+    <div class="textbox__label">Floated label</div>
+    <input v-model="value" type="text" class="textbox__input" placeholder="Type here...">
+  </label>
+</div>
+
+```html
+<label class="textbox textbox--floated">
+  <div class="textbox__label">Floated label active</div>
+  <input type="text" class="textbox__input" placeholder="Type here...">
+</label>
+```
+
 ## Disabled
 <div class="p-3 border rounded-2 my-3">
   <label class="textbox">
@@ -75,3 +90,13 @@ The text input and its variations.
   <input type="text" class="textbox__input" placeholder="Placeholder">
 </label>
 ```
+
+<script>
+export default {
+  data() {
+    return {
+      value: '',
+    };
+  },
+};
+</script>
