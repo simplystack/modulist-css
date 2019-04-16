@@ -55,13 +55,7 @@
 }
 
 .modal__footer {
-  display: flex;
-  justify-content: flex-end;
   padding: 16px;
-
-  & button {
-    margin-left: 8px;
-  }
 }
 
 .modal--open {
