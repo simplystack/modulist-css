@@ -10,38 +10,38 @@ The multiline textarea and its variations.
 </div>
 
 ```html
-<div class="textbox">
-  <label for="textarea1" class="textbox__label">Textarea</label>
-  <textarea id="textarea1" type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
-</div>
+<label class="textbox">
+  <div class="textbox__label">Textarea</div>
+  <textarea type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
+</label>
 ```
 
 ## Disabled
 <div class="p-3 border rounded-2 my-3">
-  <div class="textbox">
-    <label for="textarea2" class="textbox__label">Textarea</label>
-    <textarea disabled id="textarea2" type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
-  </div>
+  <label class="textbox">
+    <div class="textbox__label">Textarea</div>
+    <textarea disabled type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
+  </label>
 </div>
 
 ```html
-<div class="textbox">
-  <label for="textarea2" class="textbox__label">Textarea</label>
-  <textarea disabled id="textarea2" type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
-</div>
+<label class="textbox">
+  <div class="textbox__label">Textarea</div>
+  <textarea disabled type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
+</label>
 ```
 
 ## Error
 <div class="p-3 border rounded-2 my-3">
-  <div class="textbox textbox--error">
-    <label for="textarea3" class="textbox__label">Textarea</label>
-    <textarea id="textarea3" type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
-  </div>
+  <label class="textbox textbox--error">
+    <div class="textbox__label">Textarea</div>
+    <textarea type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
+  </label>
 </div>
 
 ```html
-<div class="textbox textbox--error">
-  <label for="textarea3" class="textbox__label">Textarea</label>
-  <textarea id="textarea3" type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
-</div>
+<label class="textbox textbox--error">
+  <div class="textbox__label">Textarea</div>
+  <textarea type="text" class="textbox__textarea" placeholder="Placeholder"></textarea>
+</label>
 ```
