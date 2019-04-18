@@ -290,6 +290,8 @@
 
 .button--icon-only {
   padding: 0;
+  width: 48px;
+
   .button__icon {
     margin-left: 0;
     margin-right: 0;
