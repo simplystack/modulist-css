@@ -59,6 +59,18 @@
   margin-top: 8px;
 }
 
+/* Sizes */
+.textbox--size-3 {
+  .textbox__input {
+    height: 40px;
+    padding: 0 8px;
+  }
+  .textbox__textarea {
+    padding: 8px;
+  }
+}
+
+/* Wide state */
 .textbox--wide {
   display: block;
   width: 100%;
