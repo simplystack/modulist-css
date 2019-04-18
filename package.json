@@ -1,7 +1,7 @@
 {
   "name": "@modulist/css",
   "description": "The Modulist is a CSS design system",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.4",
   "author": "SimplyStack",
   "main": "index.js",
   "style": "index.css",
