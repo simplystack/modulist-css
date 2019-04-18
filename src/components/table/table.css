@@ -182,7 +182,7 @@ table th[class*="col-"] {
   margin-bottom: 8px;
   white-space: nowrap;
 
-  &__side {
+  &__actions {
     align-items: center;
     display: flex;
     margin-left: 16px;

@@ -37,7 +37,7 @@ The inevitable HTML table, with special case cells.
           <div class="table-responsive">
             <div class="table-header">
               <h2 class="h2">Simple table</h2>
-              <div class="table-header__side">
+              <div class="table-header__actions">
                 <div class="table-header__search">
                   <div class="textbox textbox--size-3">
                     <input type="text" placeholder="Search" class="textbox__input" />
@@ -131,7 +131,7 @@ The inevitable HTML table, with special case cells.
 <div class="table-responsive">
             <div class="table-header">
               <h2 class="h2">Empty table</h2>
-              <div class="table-header__side">
+              <div class="table-header__actions">
                 <div class="table-header__search">
                   <div class="textbox textbox--size-3">
                     <input disabled type="text" placeholder="Search" class="textbox__input" />
