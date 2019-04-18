@@ -220,7 +220,7 @@ table th[class*="col-"] {
   }
 }
 
-.table-sorting__label {
+.table-sorting .table-sorting__label {
   position: relative;
   &::before,
   &::after {
