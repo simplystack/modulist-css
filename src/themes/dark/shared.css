@@ -6,7 +6,7 @@
   --form-item-border-color: hsla(220, 7%, 17%, 1);
   --form-item-border-color-disabled: hsla(220, 6%, 21%, 1);
   --form-item-border-color-hover: #040405;
-  --selectable-item-bg-color-hover: var(--gray-900);
+  --selectable-item-bg-color-hover: var(--black-fade-15);
   --selectable-item-bg-color-active: var(--blue-500);
   --input-caret-color: white;
   --layer-background-color: hsla(0, 0%, 100%, 0.05);
