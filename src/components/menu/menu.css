@@ -1,5 +1,5 @@
 .menu {
-  background-color: white;
+  background-color: var(--form-item-bg-color);
   border-radius: 4px;
   color: var(--body-text-color);
   list-style: none;
