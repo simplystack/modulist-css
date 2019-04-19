@@ -198,6 +198,13 @@ table th[class*="col-"] {
   text-align: center;
 }
 
+.table-spinner {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+}
+
 .table-pagination {
   display: flex;
   justify-content: flex-end;
