@@ -3,7 +3,7 @@
 }
 
 .popover__content {
-  background: var(--form-item-border-color);
+  background: var(--form-item-bg-color);
   border: 1px solid var(--layer-border-color);
   border-radius: 3px;
   box-shadow: 0 12px 10px -8px rgba(76, 76, 76, 0.12);
