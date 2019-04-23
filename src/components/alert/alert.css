@@ -43,7 +43,7 @@
   }
 }
 
-.alert--warn {
+.alert--warning {
   background-color: var(--yellow-000);
   & .alert__icon {
     color: var(--yellow-500);
