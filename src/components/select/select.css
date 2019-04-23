@@ -1,4 +1,5 @@
 .select {
+  display: inline-block;
   font-family: var(--body-font);
   font-size: var(--body-font-size);
   position: relative;
