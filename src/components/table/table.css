@@ -182,6 +182,10 @@ table th[class*="col-"] {
   margin-bottom: 8px;
   white-space: nowrap;
 
+  &__title {
+    font-weight: var(--font-weight-semibold);
+  }
+
   &__actions {
     align-items: center;
     display: flex;
