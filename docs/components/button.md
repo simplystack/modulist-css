@@ -58,14 +58,15 @@
 ```
 
 ## Loading
+You have to add `disable` attribute as well.
 
 <div class="p-3 border rounded-2 my-3 flex flex-wrap">
-  <button class="button button--loading button--default m-1">Default</button>
-  <button class="button button--loading button--primary m-1">Primary</button>
-  <button class="button button--loading button--alternative m-1">Alternative</button>
-  <button class="button button--loading button--subtle m-1">Subtle</button>
-  <button class="button button--loading button--success m-1">Success</button>
-  <button class="button button--loading button--danger m-1">Danger</button>
+  <button disabled class="button button--loading button--default m-1">Default</button>
+  <button disabled class="button button--loading button--primary m-1">Primary</button>
+  <button disabled class="button button--loading button--alternative m-1">Alternative</button>
+  <button disabled class="button button--loading button--subtle m-1">Subtle</button>
+  <button disabled class="button button--loading button--success m-1">Success</button>
+  <button disabled class="button button--loading button--danger m-1">Danger</button>
 </div>
 
 ``` html

@@ -257,7 +257,7 @@
   }
 }
 
-.button--loading {
+.button[disabled].button--loading {
   background-color: var(--button-bg-disabled);
   box-shadow: none;
   color: transparent;
