@@ -16,7 +16,7 @@
   top: 0;
   transition: opacity 0.3s ease;
   width: 100%;
-  z-index: 9998;
+  z-index: var(--z-index-modal);
 }
 
 .modal__wrapper {
