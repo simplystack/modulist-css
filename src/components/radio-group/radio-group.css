@@ -1,0 +1,26 @@
+.radio-group__list {
+  align-items: center;
+  display: flex;
+}
+
+.radio-group__item {
+  margin-right: var(--spacer-3);
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.radio-group--vertical {
+  .radio-group__list {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .radio-group__item {
+    margin-bottom: var(--spacer-2);
+    margin-right: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
