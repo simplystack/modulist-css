@@ -56,3 +56,27 @@
   right: 8px;
   top: 8px;
 }
+
+.notification--info {
+  .notification__icon {
+    color: var(--blue);
+  }
+}
+
+.notification--success {
+  .notification__icon {
+    color: var(--green);
+  }
+}
+
+.notification--warning {
+  .notification__icon {
+    color: var(--yellow);
+  }
+}
+
+.notification--error {
+  .notification__icon {
+    color: var(--red);
+  }
+}
