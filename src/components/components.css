@@ -5,6 +5,7 @@
 @import "box/box.css";
 @import "button/button.css";
 @import "checkbox/checkbox.css";
+@import "checkbox-group/checkbox-group.css";
 @import "chip/chip.css";
 @import "dropdown/dropdown.css";
 @import "grid/grid.css";
@@ -21,6 +22,7 @@
 @import "popover/popover.css";
 @import "progress/progress.css";
 @import "radio/radio.css";
+@import "radio-group/radio-group.css";
 @import "select/select.css";
 @import "select-native/select-native.css";
 @import "select-option/select-option.css";
