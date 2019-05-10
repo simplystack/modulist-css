@@ -1,0 +1,26 @@
+.checkbox-group__list {
+  align-items: center;
+  display: flex;
+}
+
+.checkbox-group__item {
+  margin-right: var(--spacer-3);
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.checkbox-group--vertical {
+  .checkbox-group__list {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .checkbox-group__item {
+    margin-bottom: var(--spacer-2);
+    margin-right: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
