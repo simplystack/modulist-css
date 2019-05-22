@@ -21,3 +21,25 @@
   border-bottom-color: hsla(0, 0%, 100%, 0.7);
   border-left-color: hsla(0, 0%, 100%, 0.7);
 }
+
+.spinner--size-1 {
+  border-width: 2px;
+  height: 16px;
+  width: 16px;
+}
+
+.spinner--size-2 {
+  border-width: 2px;
+  height: 24px;
+  width: 24px;
+}
+
+.spinner--size-3 {
+  height: 32px;
+  width: 32px;
+}
+
+.spinner--size-4 {
+  height: 40px;
+  width: 40px;
+}
