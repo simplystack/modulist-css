@@ -1,5 +1,6 @@
 .spinner {
-  animation: spin-around calc(var(--duration-500) * 5) infinite linear;
+  /* 'calc' us not working properly when using css custom properties */
+  animation: spin-around 500ms infinite linear;
   border-bottom-color: var(--text-secondary);
   border-left-color: var(--text-secondary);
   border-radius: 50%;
