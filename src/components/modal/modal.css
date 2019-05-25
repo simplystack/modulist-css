@@ -43,7 +43,7 @@
   display: flex;
   font-size: 22px;
   font-weight: var(--font-weight-bold);
-  padding: 16px;
+  padding: 16px 16px 0 16px;
 }
 
 .modal__title {
@@ -56,25 +56,25 @@
 }
 
 .modal__body {
-  padding: 0 16px;
+  padding: 16px;
 }
 
 .modal__footer {
-  padding: 16px;
+  padding: 0 16px;
 }
 
 .modal--open {
   overflow: hidden;
 }
 
-.modal--size-1 > .modal__container {
+.modal--size-1 .modal__container {
   max-width: 320px;
 }
 
-.modal--size-2 > .modal__container {
+.modal--size-2 .modal__container {
   max-width: 544px;
 }
 
-.modal--size-3 > .modal__container {
+.modal--size-3 .modal__container {
   max-width: 720px;
 }
