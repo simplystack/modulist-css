@@ -41,3 +41,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.menu-option:not(.menu-option--divider).menu-option--disabled {
+  color: var(--text-secondary);
+  cursor: default;
+}
