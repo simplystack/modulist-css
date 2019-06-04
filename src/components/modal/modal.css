@@ -60,7 +60,7 @@
 }
 
 .modal__footer {
-  padding: 0 16px;
+  padding: 0 16px 16px 16px;
 }
 
 .modal--open {
