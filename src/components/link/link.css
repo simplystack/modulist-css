@@ -1,36 +1,35 @@
 .link {
   cursor: pointer;
   font-family: var(--body-font);
+}
+.link--primary {
+  color: var(--primary);
 
-  &.is-primary {
-    color: var(--primary);
-
-    &:hover {
-      color: var(--primary-dark);
-    }
+  &:hover {
+    color: var(--primary-dark);
   }
+}
 
-  &.is-accent {
-    color: var(--accent);
+.link--accent {
+  color: var(--accent);
 
-    &:hover {
-      color: var(--accent-dark);
-    }
+  &:hover {
+    color: var(--accent-dark);
   }
+}
 
-  &.is-secondary {
-    color: var(--text-secondary);
+.link--secondary {
+  color: var(--text-secondary);
 
-    &:hover {
-      color: var(--gray-600);
-    }
+  &:hover {
+    color: var(--gray-600);
   }
+}
 
-  &.is-black {
-    color: var(--body-text-color);
+.link--black {
+  color: var(--body-text-color);
 
-    &:hover {
-      color: var(--gray-600);
-    }
+  &:hover {
+    color: var(--gray-600);
   }
 }
