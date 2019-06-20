@@ -1,0 +1,9 @@
+:root,
+[data-theme="default"] {
+  --spacer-7: 48px;
+  --spacer-8: 64px;
+  --spacer-9: 80px;
+  --spacer-10: 96px;
+  --spacer-11: 112px;
+  --spacer-12: 128px;
+}
